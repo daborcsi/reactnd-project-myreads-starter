@@ -19,7 +19,6 @@ class MainPage extends Component {
       			<div className="list-books-title">
         			<h1>MyReads</h1>
        	 		</div>
-            return (
       			<div className="list-books-content">
         			<div>
 			          {shelves.map((shelf, index) => {
@@ -44,7 +43,7 @@ class MainPage extends Component {
           			  })}
         			</div>
       			</div>
-      			)
+      		
             </div>  
     	)
   	}
